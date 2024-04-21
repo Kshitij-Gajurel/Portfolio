@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.header img {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 10%;
+    height: 6%;
+}
+
+.header img:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 36);
+    border-radius: 10px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+    color: #fff;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+    padding: 25px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.downArrow {
+    width: 50px;
+    height: 50px;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+}
+
+.downArrow:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.about {
+    background-color: rgb(1, 1, 40);
+}
+
+.abt {
+    position: relative;
+    left: 450px;
+    top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 56px;
+    color: #fff;
+}
+
+.about {
+    position: relative;
+}
+
+.about img {
+    padding-left: 900px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#aboutme {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    background-color: rgb(1, 1, 36);
+    border-top-right-radius: 5px;
+    padding: 10px;
+    top: 400px;
+    left: 400px;
+    width: 500px;
+}
+
+#lighter {
+    color: #b9b7b7;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    background-color: rgb(1, 1, 36);
+    border-radius: 5px;
+    padding: 10px;
+    top: 470px;
+    left: 400px;
+    width: 500px;
+}
+
+#Exp {
+    color: #b9b7b7;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    background-color: rgb(1, 1, 36);
+    border-radius: 5px;
+    padding: 10px;
+    top: 515px;
+    left: 400px;
+    width: 500px;
+}
+
+#click {
+    color: #b9b7b7;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    background-color: rgb(1, 1, 36);
+    border-radius: 5px;
+    padding: 10px;
+    top: 515px;
+    left: 602px;
+    width: 5px;
+}
+
+#click:hover {
+    cursor: pointer;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.exp {
+    background-color: rgb(1, 1, 40);
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.exp-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 56px;
+    color: #fff;
+    padding: 100px;
+    margin-bottom: 5px;
+}
+
+.exp-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.exp-table th,
+.exp-table td {
+    padding: 12px 20px;
+    border: 2px solid rgb(1, 1, 36)
+}
+
+.exp-table th {
+    background-color: #fff;
+}
+
+.exp-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.exp-table tr {
+    background-color: #333;
+    color: #fff;
+}
+
+#text {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.Contact {
+    background-color: rgb(1, 1, 40);
+    position: relative;
+    padding-top: 100px;
+}
+
+.contact {
+    padding-left: 550px;
+    padding-top: 60px;
+}
+
+.ContactMe {
+    text-align: center;
+    color: #fff;
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding-left: 100px;
+}
+
+form {
+    background-color: rgb(1, 1, 36);
+    width: 560px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form label {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form input {
+    border-style: none;
+    border-radius: 10px;
+    width: 480px;
+    padding: 10px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textarea {
+    border-style: none;
+    width: 480px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.submit {
+    background-color: rgb(1, 1, 40);
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    height: 50px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.5s;
+    background-color: rgb(9, 103, 225);
+    color: #00ffff;
+}
+
+.footer {
+    position: relative;
+    bottom: 100px;
+    left: 45%;
+    display: flex;
+    padding: 15px;
+}
+
+.footer .fb {
+    width: 40px;
+    height: 60px;
+}
+
+.fb {
+    padding: 20px;
+}
+
+.ig {
+    padding: 20px;
+    width: 40px;
+    height: 60px;
+}
+
+.fb:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ig:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#copyright {
+    padding-bottom: 35px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*CSS for responsiveness*/
+
+/* Adjust menu for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu {
+        text-align: center;
+    }
+
+    .menu ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+/* Adjust header for smaller screens */
+@media screen and (max-width: 480px) {
+    .header {
+        text-align: center;
+    }
+}
+
+/* Adjust downArrow for smaller screens */
+@media screen and (max-width: 768px) {
+    .downArrow {
+        text-align: center;
+    }
+}
+
+/* Adjust About section for smaller screens */
+@media screen and (max-width: 768px) {
+    .about {
+        text-align: center;
+    }
+
+    .about img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        /* Ensure image doesn't exceed screen width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .about .border {
+        padding: 0 20px;
+        /* Add padding to the content */
+    }
+
+    #aboutme,
+    #lighter {
+        text-align: center;
+        /* Center text */
+    }
+}
+
+/* Adjust Contact section for smaller screens */
+@media screen and (max-width: 768px) {
+    .Contact {
+        text-align: center;
+    }
+
+    .contact form {
+        width: 80%;
+        /* Adjust form width for smaller screens */
+        margin: 0 auto;
+        /* Center the form */
+    }
+}
